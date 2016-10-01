@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/nagarajan_photo.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'nagarajan_photo.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'nagarajan_photo.jpg'));
 });
 
 
