@@ -20,7 +20,7 @@ var request = new XMLHttpRequest();
     };
     // render the variable
     counter = counter+1;
-    request.open('GET','http://coco98.imad.hasura-app.io/counter',true);
+    request.open('GET','http://dnagarajannn.imad.hasura-app.io/counter',true);
     request.send(null);
  
   
