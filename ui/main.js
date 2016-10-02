@@ -1,7 +1,7 @@
 // counter code
 var button = document.getElementById('counter');
 
-Button.onclick = function() {
+button.onclick = function() {
     // create  a request
 var request = new XMLHttpRequest();
     // capture the response
@@ -20,7 +20,5 @@ var request = new XMLHttpRequest();
     counter = counter+1;
     request.open('GET','http://dnagarajannn.imad.hasura-app.io/counter',true);
     request.send(null);
- 
-  
 };
 
