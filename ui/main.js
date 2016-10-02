@@ -17,7 +17,7 @@ button.onclick = function() {
  //                }
  //       }
         // not done yet
-    };
+//    };
     // render the variable
  //   request.open('GET','http://dnagarajannn.imad.hasura-app.io/counter',true);
  //   request.send(null);
