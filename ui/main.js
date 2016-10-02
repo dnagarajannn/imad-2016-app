@@ -2,7 +2,7 @@
 
 var button = document.getElementById('counter');
 var counter=0;
-Button.onclick = function {
+Button.onclick = function() {
     // make a request
     
     // capture the response
