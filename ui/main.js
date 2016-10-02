@@ -10,6 +10,7 @@ var request = new XMLHttpRequest();
             // take some action
             if ( request.status === 200 ) {
                 var counter = request.responseText;
+                counter++;
                 var span = document.getElementById('count');
                  span.innterHTML = counter.toString();  
                  }
