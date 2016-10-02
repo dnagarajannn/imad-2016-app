@@ -10,7 +10,6 @@ var request = new XMLHttpRequest();
             // take some action
             if ( request.status === 200 ) {
                 var counter = request.responseText;
-                counter++;
                 var span = document.getElementById('count');
                  span.innterHTML = counter.toString();  
                  }
@@ -18,7 +17,6 @@ var request = new XMLHttpRequest();
         // not done yet
     };
     // render the variable
-    counter = counter+1;
     request.open('GET','http://dnagarajannn.imad.hasura-app.io/counter',true);
     request.send(null);
 };
